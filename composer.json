@@ -1,0 +1,25 @@
+{
+  "name": "xprt64/file-storage",
+  "description": "File storage for PHP",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Constantin GALBENU",
+      "email": "gica.galbenu@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^7.0",
+    "psr/http-message": "^1.0",
+    "xprt64/filesystem": "^1.0.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^5.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "Gica\\FileStorage\\": "src/Gica/FileStorage/"
+    }
+  }
+}
