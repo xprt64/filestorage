@@ -18,8 +18,8 @@ class FilePathGenerator
 
         $relativePath = $id;
 
-        $dir1 = substr($id, 0, 3);
-        $dir2 = substr($id, 3, 3);
+        $dir1 = substr($id, 0, 2);
+        $dir2 = substr($id, 2, 2);
 
         return $dir1 . '/' . $dir2 . '/' . $relativePath;
     }
